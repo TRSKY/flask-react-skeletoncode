@@ -1,0 +1,11 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	padding: 0 15px;
+	border-bottom: 1px solid #ccc;
+}
+.title {
+	font-weight: 400;
+}
