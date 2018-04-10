@@ -1,11 +1,17 @@
 html, body {
 	margin: 0;
 	padding: 0;
+	font-family: 'Roboto';
+}
+h1, h2, h3, h4, h5 {
+	margin: 0;
 }
 .container {
+	margin: 20px 2%;
 	padding: 0 15px;
 	border-bottom: 1px solid #ccc;
 }
 .title {
 	font-weight: 400;
+	font-size: 46px;
 }
