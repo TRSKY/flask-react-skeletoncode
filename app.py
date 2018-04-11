@@ -1,9 +1,10 @@
 import json
 import os
 from flask import Flask, render_template, request, redirect, url_for, abort, Response
+from flask_pymongo import PyMongo
 
 app = Flask(__name__)
-
+mongo = PyMongo(app)
 @app.route("/", methods=['GET', 'POST'])
 def index():
 	return render_template('index.html')
